@@ -4,7 +4,15 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
+  lastUpdated: true,
   themeConfig: {
+    editLink: {
+      pattern: 'https://github.com/YJLAugus/VitePresslab/edit/main/docs/:path',
+      text: 'Edit this page on GitHub'
+    },
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
