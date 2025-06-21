@@ -3,18 +3,18 @@
 layout: home
 
 hero:
-  name: "ASF算法实验室"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "深度编程实验室"
+  text: "聚焦于算法、人工智能应用的先进实验室"
+  tagline: 如果你对于编程、算法、AI感兴趣，欢迎加入我们🎉
   image:
       src: /logo.svg
       alt: 深度编程实验室
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 关于实验室
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 加入我们
       link: /api-examples
 
 features:

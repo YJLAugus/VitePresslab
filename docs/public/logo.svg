@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <!-- 深色背景 -->
-  <radialGradient id="background" cx="40%" cy="40%">
-    <stop offset="0%" stop-color="#0c1024"/>
-    <stop offset="100%" stop-color="#151c45"/>
-  </radialGradient>
+  <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#41d1ff"/>
+    <stop offset="100%" stop-color="#bd34fe"/>
+  </linearGradient>
   <circle cx="100" cy="100" r="100" fill="url(#background)"/>
   <!-- 核心节点 -->
   <radialGradient id="coreGradient" cx="30%" cy="30%">
