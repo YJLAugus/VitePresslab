@@ -23,7 +23,7 @@ export default defineConfig({
         text: '实验室',
         items: [
           { text: '成果', link: '/markdown-examples' },
-          { text: '组员介绍', link: '/markdown-examples' },
+          { text: '组员介绍', link: '/team' },
           { text: '组内活动', link: '/markdown-examples' }
         ]
       }
@@ -31,12 +31,37 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '关于实验室',
+        collapsed: false,
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
-      }
+      },
+      {
+        text: '最新消息',
+        collapsed: false,
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: '组内活动',
+        collapsed: false,
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: '组员介绍',
+        collapsed: false,
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
     ],
     footer: {
       message: 'Released under the MIT License.',
