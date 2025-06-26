@@ -1,46 +1,48 @@
 import DefaultTheme from 'vitepress/theme'
-import './custom.css' 
+// import './custom.css'
 import './rainbow.css'
-// import './overrides.css'
-// import './var.css'
+import './overrides.css'
+import './vars.css'
 import { watch } from 'vue'
-// export default DefaultTheme
-/* .vitepress/theme/index.ts */ // [!code focus:3]
-// 彩虹背景动画样式
 let homePageStyle: HTMLStyleElement | undefined
 
 export default {
   extends: DefaultTheme,
-  enhanceApp({app , router }) {
-    // [!code focus:8]
-    // 彩虹背景动画样式
+  enhanceApp({ app, router }) {
     if (typeof window !== 'undefined') {
       watch(
-        () => router.route.data.relativePath,
-        () => updateHomePageStyle(location.pathname === '/'),
-        { immediate: true },
+        () => router.route.path,
+        () => {
+          updateHomePageStyle(router.route.path === '/')
+        },
+        { immediate: true }
       )
     }
-
   },
 }
-// [!code focus:18]
-// 彩虹背景动画样式
-function updateHomePageStyle(value: boolean) {
-  if (value) {
-    if (homePageStyle) return
 
+function updateHomePageStyle(isHome: boolean) {
+  if (isHome) {
+    if (homePageStyle) return
+    
+    // 添加 rainbow 类到 html 元素
+    document.documentElement.classList.add('rainbow')
+    
+    // 创建样式元素确保动画运行
     homePageStyle = document.createElement('style')
     homePageStyle.innerHTML = `
-    :root {
-      animation: rainbow 12s linear infinite;
-    }`
-    document.body.appendChild(homePageStyle)
+      :root {
+        animation: rainbow 40s linear infinite;
+      }
+    `
+    document.head.appendChild(homePageStyle)
   } else {
     if (!homePageStyle) return
-
+    
+    // 移除 rainbow 类
+    document.documentElement.classList.remove('rainbow')
+    
     homePageStyle.remove()
     homePageStyle = undefined
   }
 }
-
