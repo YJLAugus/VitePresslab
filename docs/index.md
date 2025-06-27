@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "深度编程实验室"
-  text: "聚焦于算法、人工智能应用的先进实验室"
+  name: "DeepCodeLab"
+  text: "深度编程实验室"
   tagline: 如果你对于编程、算法、AI感兴趣，欢迎加入我们🎉
   image:
       src: /logo.svg
@@ -18,11 +18,22 @@ hero:
       link: /api-examples
 
 features:
-  - title: 算法竞赛
+  - icon: 🏆
+    title: 算法竞赛
     details: 主要方向是国内的算法竞赛，例如蓝桥杯。也欢迎对于ACM（ACM国际大学生程序设计竞赛）的同学。
-  - title: AI应用落地
+    linkText: 了解更多
+   
+    
+  - icon: 🛠️
+    title: AI应用落地
     details: 结合行业需求，研发可部署的人工智能解决方案。
-  - title: 深度技术研究
+    linkText: 了解更多
+   
+  - icon: 💡
+    title: 深度技术研究
     details: 探索机器学习与大数据交叉领域，赋能智能未来。
+    linkText: 了解更多
+    
+    
 ---
 

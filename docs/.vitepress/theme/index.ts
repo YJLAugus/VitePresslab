@@ -1,8 +1,9 @@
 import DefaultTheme from 'vitepress/theme'
-// import './custom.css'
+import './custom.css'
 import './rainbow.css'
 import './overrides.css'
 import './vars.css'
+
 import { watch } from 'vue'
 let homePageStyle: HTMLStyleElement | undefined
 

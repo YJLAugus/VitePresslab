@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "深度编程实验室",
-  
+   head: [['link', { rel: 'icon', href: '/logo.svg' }]],
   description: "A VitePress Site",
   lastUpdated: true,
   themeConfig: {
@@ -65,7 +65,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2015-present 深度编程实验室'
+      copyright: 'Copyright © 2025 深度编程实验室（DeepCodeLab）'
     },
 
     socialLinks: [

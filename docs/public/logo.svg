@@ -1,42 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <!-- 深色背景 -->
-  <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#41d1ff"/>
-    <stop offset="100%" stop-color="#bd34fe"/>
-  </linearGradient>
-  <circle cx="100" cy="100" r="100" fill="url(#background)"/>
-  <!-- 核心节点 -->
-  <radialGradient id="coreGradient" cx="30%" cy="30%">
-    <stop offset="20%" stop-color="#00c6ff"/>
-    <stop offset="100%" stop-color="#0072ff"/>
-  </radialGradient>
-  <circle cx="100" cy="100" r="25" fill="url(#coreGradient)"/>
-  <!-- 数据连接线 -->
-  <g stroke="#4ecca3" stroke-width="1.5" opacity="0.8">
-    <path d="M100,100 C150,60 160,140 100,100" fill="none" stroke-dasharray="4,2"/>
-    <path d="M100,100 C40,140 50,60 100,100" fill="none" stroke-dasharray="4,2"/>
-    <path d="M100,100 C140,150 60,150 100,100" fill="none" stroke-dasharray="4,2"/>
-    <path d="M100,100 C60,50 140,50 100,100" fill="none" stroke-dasharray="4,2"/>
-  </g>
-  <!-- 外层结构 -->
-  <g transform="rotate(-15 100 100)" stroke="#ff7bac" stroke-width="1.2" fill="none">
-    <circle cx="100" cy="100" r="60" stroke-dasharray="5,2" opacity="0.7"/>
-    <circle cx="100" cy="100" r="75" stroke-dasharray="3,3" opacity="0.6"/>
-  </g>
-  <!-- 二进制数据点 -->
-  <g fill="#ffffff" opacity="0.7">
-    <circle cx="145" cy="80" r="1.8"/>
-    <circle cx="130" cy="130" r="1.8"/>
-    <circle cx="55" cy="110" r="1.5"/>
-    <circle cx="70" cy="70" r="2"/>
-    <circle cx="85" cy="155" r="2.2"/>
-    <circle cx="120" cy="50" r="1.5"/>
-  </g>
-  <!-- 层次节点 -->
-  <g fill="#ffd166">
-    <circle cx="120" cy="105" r="5" opacity="0.9"/>
-    <circle cx="80" cy="90" r="4" opacity="0.8"/>
-    <circle cx="100" cy="130" r="4.5" opacity="0.9"/>
-    <circle cx="135" cy="145" r="3" opacity="0.8"/>
-  </g>
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 上侧深灰模块 (终端) -->
+  <path d="M53 32C25.3858 32 3 54.3858 3 82V82C3 109.614 25.3858 132 53 132H98C100.761 132 103 129.761 103 127V37C103 34.2386 100.761 32 98 32H53Z" fill="#4D4D4D"/>
+  <!-- 左侧浅灰模块 (编辑器) -->
+  <path d="M167.888 117.444C195.502 117.444 217.888 139.83 217.888 167.444V167.444C217.888 195.058 195.502 217.888 167.888 217.888H122.888C120.126 217.888 117.888 215.205 117.888 212.444V122.444C117.888 119.683 120.126 117.444 122.888 117.444H167.888Z" fill="#CCCCCC"/>
+  <!-- 跳动光标 (集成在浅灰模块内) -->
+  <rect x="180" y="150" width="4" height="40" rx="1" fill="#4D4D4D">
+    <animate attributeName="opacity" values="1;0.3;1" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <!-- 右下中灰模块 (预览) -->
+  <path d="M167.888 102C140.273 102 117.888 79.6142 117.888 52V52C117.888 24.3858 140.273 2 167.888 2H167.888C195.502 2 217.888 24.3858 217.888 52V52C217.888 79.6142 195.502 102 167.888 102Z" fill="#858585"/>
 </svg>
