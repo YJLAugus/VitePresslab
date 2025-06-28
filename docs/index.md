@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 关于实验室
-      link: /markdown-examples
+      link: /about
     - theme: alt
       text: 加入我们
       link: /api-examples

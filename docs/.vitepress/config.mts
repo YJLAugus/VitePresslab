@@ -34,8 +34,8 @@ export default defineConfig({
         text: '关于实验室',
         collapsed: false,
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '关于', link: '/about' },
+          { text: '研究方向', link: '/research' }
         ]
       },
       {
