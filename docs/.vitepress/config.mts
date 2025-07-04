@@ -42,8 +42,8 @@ export default defineConfig({
         text: '最新消息',
         collapsed: false,
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '竞赛获奖🥇', link: '/awards' },
+          { text: '大事件⚡️', link: '/news' }
         ]
       },
       {
