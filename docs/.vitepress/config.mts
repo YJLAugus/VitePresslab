@@ -58,7 +58,7 @@ export default defineConfig({
         text: '组员介绍',
         collapsed: false,
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: '团队', link: '/team' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       },
