@@ -1,5 +1,9 @@
 # 关于
 
+<br/>
+
+<img width="260" height="25" src="https://glitch-art.vercel.app/api/simple?word=DeepCodeLab&font=Sour+Gummy&fontWeight=500" />
+
 ## 实验室
 
 建立这个的实验室的初衷是为了让“热爱和兴趣”有个组织。将一群有同样兴趣的人集中在一起，希望大家能在实验室有所收获，在大学这段时间能有所成长！
