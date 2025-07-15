@@ -96,6 +96,13 @@
  * Component: Algolia
  * -------------------------------------------------------------------------- */
 
-.DocSearch {
+.DocSearch{
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+
+/*
+自定义同类颜色渐变
+*/
+.title{
+  color: var(--vp-c-brand-1) !important;
 }
