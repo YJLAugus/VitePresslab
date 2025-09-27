@@ -126,3 +126,9 @@
         font-size: 16px;
     }
 }
+
+@media (min-width: 768px) {
+    .VPTeamPage[data-v-7c57f839] {
+        margin: 0px 0;
+    }
+}
