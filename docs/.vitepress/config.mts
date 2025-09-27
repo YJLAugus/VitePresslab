@@ -39,10 +39,19 @@ export default defineConfig({
         ]
       },
       {
+        text: '组员介绍',
+        collapsed: false,
+        items: [
+          { text: '团队', link: '/team' }
+          
+        ]
+      },
+      {
         text: '最新消息',
         collapsed: false,
         items: [
           { text: '竞赛获奖🥇', link: '/awards' },
+          { text: '奖励政策💡', link: '/reward' },
           { text: '大事件⚡️', link: '/news' }
         ]
       },
@@ -53,15 +62,8 @@ export default defineConfig({
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
-      },
-      {
-        text: '组员介绍',
-        collapsed: false,
-        items: [
-          { text: '团队', link: '/team' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      },
+      }
+      
     ],
     footer: {
       message: 'Released under the MIT License.',

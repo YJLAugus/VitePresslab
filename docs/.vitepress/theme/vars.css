@@ -106,3 +106,23 @@
 .title{
   color: var(--vp-c-brand-1) !important;
 }
+/* team 页面调整*/
+@media (min-width: 960px) {
+    .VPContent[data-v-98ddab3d] {
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 960px) {
+    .VPTeamPageTitle[data-v-baf690b4] {
+        padding: 0px 64px 48px;
+    }
+}
+@media (min-width: 768px) {
+    .lead[data-v-baf690b4] {
+        max-width: 800px;
+        letter-spacing: 0.15px;
+        line-height: 28px;
+        font-size: 16px;
+    }
+}

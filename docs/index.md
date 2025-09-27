@@ -15,7 +15,7 @@ hero:
       link: /about
     - theme: alt
       text: 加入我们
-      link: /api-examples
+      link: /team
 
 features:
   - icon: 🏆
