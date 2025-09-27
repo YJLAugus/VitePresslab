@@ -10,7 +10,7 @@ import {
 } from 'vitepress/theme'
 const teachers = [
   {
-    avatar: 'https://s1.locimg.com/2025/09/27/888feb0bda020.JPG',
+    avatar: 'https://s1.locimg.com/2025/09/27/3adb9fd923ea8.jpg',
     name: '姚建龙',
     title: 'Creator',
     links: [
