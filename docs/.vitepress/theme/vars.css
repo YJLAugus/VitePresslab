@@ -118,7 +118,7 @@
         padding: 0px 64px 48px;
     }
 }
-@media (min-width: 768px) {
+@media (min-width: 960px) {
     .lead[data-v-baf690b4] {
         max-width: 800px;
         letter-spacing: 0.15px;
