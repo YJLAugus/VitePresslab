@@ -51,7 +51,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '竞赛获奖🥇', link: '/awards' },
-          { text: '奖励政策💡', link: '/reward' },
+          { text: '奖励提升💡', link: '/reward' },
           { text: '大事件⚡️', link: '/news' }
         ]
       },
