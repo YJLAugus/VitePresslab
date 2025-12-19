@@ -14,8 +14,8 @@ const teachers = [
     name: '姚建龙',
     title: 'Creator',
     links: [
-      { icon: 'github', link: '#' },
-      { icon: 'twitter', link: '#' }
+      { icon: 'github', link: 'https://github.com/YJLAugus' }
+    
     ]
   }
 
@@ -58,7 +58,8 @@ const stumembers = [
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>导师介绍</template>
-    <template #lead>欢迎大家进入实验室，本人兴趣广泛，乒乓球作为日常运动，欢迎大家约球。计算机相关技术涉猎较广，如果学习上有什么技术性问题，欢迎与我探讨。从不push学生，认为每个人都有自己的学习和生活方式，只做引导，希望大家有内驱力。现在实验室主要做蓝桥杯方面的比赛，如果对于ACM感兴趣也欢迎加入。在实习就业、出国留学也有一定了解，如果需要可以与我交流。</template>
+    <template #lead>欢迎大家进入实验室，本人兴趣广泛，乒乓球作为日常运动，欢迎大家约球。计算机相关技术涉猎较广，如果学习上有什么技术性问题，欢迎与我探讨。从不push学生，认为每个人都有自己的学习和生活方式，只做引导，希望大家有内驱力。现在实验室主要做蓝桥杯方面的比赛，如果对于ACM感兴趣也欢迎加入。在实习就业、出国留学也有一定了解，如果需要可以与我交流。<p style="color: blue;"><b>邮箱：i@uzz.edu.cn</b></p>
+</template>
   </VPTeamPageTitle>
   <VPTeamMembers size="small" :members="teachers" />
   <VPTeamPageSection>
