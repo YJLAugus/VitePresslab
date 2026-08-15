@@ -51,6 +51,7 @@ const stumembers = [
     
   },
   {
+    avatar: 'http://img.deepcodelab.top/uPic/微信图片_2026-08-15_101222_928.jpg',
     name: '张振骄',
     title: '第十七届蓝桥杯山东赛区C/C++程序设计大学B组三等奖'
   },
