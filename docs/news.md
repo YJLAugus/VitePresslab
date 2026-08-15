@@ -14,7 +14,7 @@
       "
     ></span>
     <strong>2026年6月5日</strong><br /><br />
-    <img src="http://img.deepcodelab.top/uPic/IMG_0824%E5%A4%A7.jpeg" />
+    <img src="http://img.deepcodelab.top/uPic/26.jpeg" />
   </div>
   实验室刘明华、王新淇、赵天宇、种法杞同学参加第十七届蓝桥杯全国软件和信息技术专业人才大赛<b>全国总决赛</b>。
   <div style="position: relative; padding-bottom: 20px">
