@@ -24,8 +24,25 @@ const stumembers = [
   {
     avatar: 'https://s1.locimg.com/2025/09/27/3eae62a39059d.jpg',
     name: '种法杞',
-    title: '第十六届蓝桥杯全国总决赛C/C++程序设计大学C组三等奖，山东省一等奖',
+    title: '第十六届、第十七届蓝桥杯全国总决赛C/C++程序设计大学C组三等奖，山东省一等奖',
     
+  },
+  
+  {
+    avatar: 'https://s1.locimg.com/2025/09/27/2c6dbef46fb2f.jpg',
+    name: '刘明华',
+    title: '第十七届蓝桥杯全国总决赛C/C++程序设计大学C组三等奖，第十六届蓝桥杯山东赛区C/C++程序设计大学C组一等奖',
+    
+  },
+  {
+    avatar: 'https://s1.locimg.com/2025/09/27/2eef18b3050fa.jpg',
+    name: '赵天宇',
+    title: '第十七届蓝桥杯全国总决赛C/C++程序设计大学C组三等奖，第十六届蓝桥杯山东赛区C/C++程序设计大学C组一等奖'
+  },
+  {
+    avatar: 'https://s1.locimg.com/2025/09/27/2e540e769188c.jpg',
+    name: '周政轩',
+    title: '第十六届蓝桥杯山东赛区C/C++程序设计大学B组三等奖'
   },
   {
     avatar: 'https://s1.locimg.com/2025/09/27/2f24853d456e8.jpg',
@@ -34,20 +51,9 @@ const stumembers = [
     
   },
   {
-    avatar: 'https://s1.locimg.com/2025/09/27/2c6dbef46fb2f.jpg',
-    name: '刘明华',
-    title: '第十六届蓝桥杯山东赛区C/C++程序设计大学C组一等奖',
-    
-  },
-  {
-    avatar: 'https://s1.locimg.com/2025/09/27/2eef18b3050fa.jpg',
-    name: '赵天宇',
-    title: '第十六届蓝桥杯山东赛区C/C++程序设计大学C组一等奖'
-  },
-  {
-    avatar: 'https://s1.locimg.com/2025/09/27/2e540e769188c.jpg',
-    name: '周政轩',
-    title: '第十六届蓝桥杯山东赛区C/C++程序设计大学B组三等奖'
+    avatar: '',
+    name: '张振骄',
+    title: '第十七届蓝桥杯山东赛区C/C++程序设计大学B组三等奖'
   },
  
 ]
@@ -63,7 +69,7 @@ const stumembers = [
   </VPTeamPageTitle>
   <VPTeamMembers size="small" :members="teachers" />
   <VPTeamPageSection>
-    <template #title>实验室成员</template>
+    <template #title>往届获奖</template>
     <template #lead>恭喜以下同学荣获第十六届蓝桥杯全国软件和信息技术专业人才大赛全国总决赛C/C++程序设计大学B、C组国赛奖、省赛奖。</template>
     <template #members>
       <VPTeamMembers size="small" :members="stumembers" />
