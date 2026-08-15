@@ -51,7 +51,6 @@ const stumembers = [
     
   },
   {
-    avatar: '',
     name: '张振骄',
     title: '第十七届蓝桥杯山东赛区C/C++程序设计大学B组三等奖'
   },
@@ -70,7 +69,7 @@ const stumembers = [
   <VPTeamMembers size="small" :members="teachers" />
   <VPTeamPageSection>
     <template #title>往届获奖</template>
-    <template #lead>恭喜以下同学荣获第十六届蓝桥杯全国软件和信息技术专业人才大赛全国总决赛C/C++程序设计大学B、C组国赛奖、省赛奖。</template>
+    <template #lead>恭喜以下同学荣获蓝桥杯全国软件和信息技术专业人才大赛全国总决赛C/C++程序设计大学B、C组国赛奖、省赛奖。</template>
     <template #members>
       <VPTeamMembers size="small" :members="stumembers" />
     </template>
